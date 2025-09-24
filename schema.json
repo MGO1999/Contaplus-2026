@@ -1,0 +1,528 @@
+{
+  "fields": [
+    {
+      "name": "ASIEN",
+      "type": "N",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "FECHA",
+      "type": "D",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "SUBCTA",
+      "type": "C",
+      "length": 12,
+      "decimals": 0
+    },
+    {
+      "name": "CONTRA",
+      "type": "C",
+      "length": 12,
+      "decimals": 0
+    },
+    {
+      "name": "PTADEBE",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "CONCEPTO",
+      "type": "C",
+      "length": 25,
+      "decimals": 0
+    },
+    {
+      "name": "PTAHABER",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "FACTURA",
+      "type": "N",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "BASEIMPO",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "IVA",
+      "type": "N",
+      "length": 5,
+      "decimals": 2
+    },
+    {
+      "name": "RECEQUIV",
+      "type": "N",
+      "length": 5,
+      "decimals": 2
+    },
+    {
+      "name": "DOCUMENTO",
+      "type": "C",
+      "length": 10,
+      "decimals": 0
+    },
+    {
+      "name": "DEPARTA",
+      "type": "C",
+      "length": 3,
+      "decimals": 0
+    },
+    {
+      "name": "CLAVE",
+      "type": "C",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "ESTADO",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "NCASADO",
+      "type": "N",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "TCASADO",
+      "type": "N",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "TRANS",
+      "type": "N",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "CAMBIO",
+      "type": "N",
+      "length": 16,
+      "decimals": 6
+    },
+    {
+      "name": "DEBEME",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "HABERME",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "AUXILIAR",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "SERIE",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "SUCURSAL",
+      "type": "C",
+      "length": 4,
+      "decimals": 0
+    },
+    {
+      "name": "CODDIVISA",
+      "type": "C",
+      "length": 5,
+      "decimals": 0
+    },
+    {
+      "name": "IMPAUXME",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "MONEDAUSO",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "EURODEBE",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "EUROHABER",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "BASEEURO",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "NOCONV",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "NUMEROINV",
+      "type": "C",
+      "length": 10,
+      "decimals": 0
+    },
+    {
+      "name": "SERIE_RT",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "FACTU_RT",
+      "type": "N",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "BASEIMP_RT",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "BASEIMP_RF",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "RECTIFICA",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "FECHA_RT",
+      "type": "D",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "NIC",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "LPERIODICO",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "CODMOVPER",
+      "type": "N",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "LINTERRUMP",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "SEGACTIV",
+      "type": "C",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "SEGGEOGR",
+      "type": "C",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "LRECT349",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "FECHA_OP",
+      "type": "D",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "FECHA_EX",
+      "type": "D",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "DEPARTA5",
+      "type": "C",
+      "length": 5,
+      "decimals": 0
+    },
+    {
+      "name": "FACTURA10",
+      "type": "C",
+      "length": 10,
+      "decimals": 0
+    },
+    {
+      "name": "PORCEN_ANA",
+      "type": "N",
+      "length": 5,
+      "decimals": 2
+    },
+    {
+      "name": "PORCEN_SEG",
+      "type": "N",
+      "length": 5,
+      "decimals": 2
+    },
+    {
+      "name": "NUMAPUNTE",
+      "type": "N",
+      "length": 6,
+      "decimals": 0
+    },
+    {
+      "name": "EUROTOTAL",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "RAZONSOC",
+      "type": "C",
+      "length": 100,
+      "decimals": 0
+    },
+    {
+      "name": "APELLIDO1",
+      "type": "C",
+      "length": 50,
+      "decimals": 0
+    },
+    {
+      "name": "APELLIDO2",
+      "type": "C",
+      "length": 50,
+      "decimals": 0
+    },
+    {
+      "name": "TIPOOPE",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "NFACTICK",
+      "type": "N",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "NUMACUINI",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "NUMACUFIN",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "TERIDNIF",
+      "type": "N",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "TERNIF",
+      "type": "C",
+      "length": 15,
+      "decimals": 0
+    },
+    {
+      "name": "TERNOM",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "TERNIF14",
+      "type": "C",
+      "length": 9,
+      "decimals": 0
+    },
+    {
+      "name": "TBIENTRAN",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "TBIENCOD",
+      "type": "C",
+      "length": 10,
+      "decimals": 0
+    },
+    {
+      "name": "TRANSINM",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "METAL",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "METALIMP",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "CLIENTE",
+      "type": "C",
+      "length": 12,
+      "decimals": 0
+    },
+    {
+      "name": "OPBIENES",
+      "type": "N",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "FACTURAEX",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "TIPOFAC",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "TIPOIVA",
+      "type": "C",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "GUID",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "L340",
+      "type": "L",
+      "length": 1,
+      "decimals": 0
+    },
+    {
+      "name": "METALEJE",
+      "type": "N",
+      "length": 4,
+      "decimals": 0
+    },
+    {
+      "name": "DOCUMENT15",
+      "type": "C",
+      "length": 15,
+      "decimals": 0
+    },
+    {
+      "name": "CLIENTESUP",
+      "type": "C",
+      "length": 12,
+      "decimals": 0
+    },
+    {
+      "name": "FECHASUP",
+      "type": "D",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "IMPORTESUP",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "DOCSUP",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "CLIENTEPRO",
+      "type": "C",
+      "length": 12,
+      "decimals": 0
+    },
+    {
+      "name": "FECHAPRO",
+      "type": "D",
+      "length": 8,
+      "decimals": 0
+    },
+    {
+      "name": "IMPORTEPRO",
+      "type": "N",
+      "length": 16,
+      "decimals": 2
+    },
+    {
+      "name": "DOCPRO",
+      "type": "C",
+      "length": 40,
+      "decimals": 0
+    },
+    {
+      "name": "NCLAVEIRPF",
+      "type": "N",
+      "length": 2,
+      "decimals": 0
+    }
+  ],
+  "record_len": 1085,
+  "header_len": 2817
+}
